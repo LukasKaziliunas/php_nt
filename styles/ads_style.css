@@ -1,0 +1,269 @@
+#offer-list-container{
+    width: auto;
+    height: 800px;
+    /*background-color: gray;*/
+}
+
+.offer-box{
+  width: auto;
+  height: 140px;
+  margin-bottom: 10px;
+  padding: 3px;
+  /*background-color: green;*/
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightslategray;
+}
+
+.picture-box{
+    width: 180px;
+    height: 130px;
+   /* background-color: mediumblue;*/
+    float: left;
+    border: solid;
+    border-width: 1px;
+    border-color: lightslategray;
+}
+
+.offer-info-box{
+    width: 80%;
+    height: 140px;
+    /*background-color: mediumvioletred;*/
+    float: right;
+}
+
+.offer-list-container a{
+    text-decoration: none;
+    
+}
+
+.estate-address-box{
+
+}
+
+.estate-address{
+color:black;
+}
+
+.estate-description-box{
+
+}
+
+.estate-description{
+ color: gray;
+}
+
+.estate-price-box{
+
+}
+
+.estate-price{
+color: black;
+font-weight: bold;
+}
+
+#offer-info-container{
+
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+
+    width: auto;
+    min-height: 800px;
+    max-height: auto;
+
+    margin-bottom: 100px;
+}
+
+.offer-info-buttons-box{
+    display: flex;
+    flex-direction: row-reverse;
+
+    /*border-style: solid ;
+    border-color: black;
+    border-width: 1px;*/
+
+    width: auto;
+    margin: 10px;
+
+    padding-right: 10px;
+
+    flex-wrap: wrap;
+}
+
+.offer-info-buttons-box a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ .offer-info-buttons-box-button{
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+
+    min-width: 90px;
+    max-width: auto;
+    height: 35px;
+
+    margin: 6px 8px 6px 0px;
+    
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+
+ .offer-info-toppart{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+
+    max-width: 1000px;
+
+    margin-right: 10px;
+    margin-left: 10px;
+
+ }
+
+ 
+ .offer-info-picture-box{
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+
+    width: 330px;
+    height: 330px;
+    margin: 10px;
+    margin-right: 5px;
+ }
+
+ .offer-info-details{
+    /*border-style: solid ;
+    border-color: black;
+    border-width: 1px;*/
+
+    
+    width: auto;
+    
+    margin: 10px;
+    margin-left: 5px;
+
+    flex: 2;
+
+ }
+
+
+ .offer-info-description-box{
+    border-style: solid ;
+    border-color: black;
+    border-width: 1px;
+
+    width: auto;
+    min-height: 300px;
+    max-height: auto;
+
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    padding: 10px;
+ }
+
+
+.offer-info-details-row{
+    
+    display: flex;
+    height: 30px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+
+    padding-left: 10px;
+
+}
+
+.details-title{
+    flex: 1;
+    line-height: normal;
+}
+
+.details-data{
+    flex: 1;
+
+    height: auto;
+    font-weight: bold;
+    font-size: 15px;
+
+    margin-left: 20px;
+}
+
+.offer-info-feature{
+   /* border-style: solid ;
+    border-color: black;
+    border-width: 1px;*/
+
+    
+    width: auto;
+    
+    margin: 10px;
+    margin-left: 5px;
+
+    flex: 1;
+}
+
+
+#button-selected:hover {
+    background-color: lawngreen;
+    cursor: pointer;
+  }
+
+  #button-edit:hover {
+    background-color: orangered;
+  }
+
+  #button-delete:hover {
+    background-color: red;
+  }
+
+  #button-default:hover {
+    background-color: lightslategray;
+  }
+
+  #seller-info{
+      /*border: 1px solid black;*/
+      flex: 1;
+
+      width: 100px;
+      height: 35px;
+
+      margin: 16px 8px 6px 10px;
+    
+    padding-top: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    width: 650px;
+  }
+
+  @media screen and (max-width: 1300px) {
+    #seller-info {
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    #seller-info {
+        width: 250px;
+    }
+  }
+
+  #offer-info-header{
+      flex: 2;
+    display: flex;
+  }

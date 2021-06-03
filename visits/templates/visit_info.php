@@ -1,0 +1,1 @@
+pasirinkto vizito langas
